@@ -2,7 +2,7 @@
 	    pageEncoding="ISO-8859-1"%>
 	    <link rel="stylesheet" href="css/estilo.css">
 	    <center>
-	  <section>
+	  <div>
 	           	
 		<table style="width:100%" >
 		<tr>
@@ -28,7 +28,7 @@
 					
 		
 		
-		        </section>
+		        </div>
 		
 		</center>
 	        <!-- Pie de pagina -->
