@@ -15,7 +15,6 @@
             <nav class="top_menu">
 
                 <ul>
-
                     <li><a href="#">CADSO Style</a></li>
 
                     <li><a href="#">Ropa</a></li>
@@ -29,9 +28,7 @@
                     <li><a href="#">Contacto</a></li>
 
                 </ul>
-
             </nav>
-
         </header>
 
 
