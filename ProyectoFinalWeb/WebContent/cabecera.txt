@@ -7,5 +7,6 @@
       <li><a href="adminUsr.jsp">Administracion de Usuarios</a> </li>
       <li><a href="adminUsr.jsp">Tendencias</a></li>
       <li><a href="adminUsr.jsp">Locales</a></li>
+      <li><a href="adminUsr.jsp">Acerca de Nosotros</a></li>
    </ul> 
 </nav>
