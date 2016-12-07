@@ -8,16 +8,7 @@
 </head>
 <body>
    <%@include file="cabecera.txt" %>
-	<p>
-	  hola mundo
-	</p>
-	<p>
 	
-	  hola mundo
-	</p>
-	<p>
-	  hola mundo
-	</p>
 	
    <jsp:include page="piePagina.jsp" />
 </body>
