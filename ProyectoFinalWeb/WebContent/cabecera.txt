@@ -5,5 +5,7 @@
    <ul>
       <li><a href="index.jsp">Inicio</a> </li>
       <li><a href="adminUsr.jsp">Administracion de Usuarios</a> </li>
+      <li><a href="adminUsr.jsp">Tendencias</a></li>
+      <li><a href="adminUsr.jsp">Locales</a></li>
    </ul> 
 </nav>
