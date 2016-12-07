@@ -1,0 +1,9 @@
+<header>
+   <img src="images/ropa.png" alt="" />
+</header>
+<nav>
+   <ul>
+      <li><a href="index.jsp">Inicio</a> </li>
+      <li><a href="adminUsr.jsp">Administracion de Usuarios</a> </li>
+   </ul> 
+</nav>
