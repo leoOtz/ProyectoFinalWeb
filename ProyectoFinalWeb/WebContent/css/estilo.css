@@ -8,14 +8,7 @@ header {
 	background:#2196F3;
 	padding:10px 0px;
 }
-section {
-	width: 79%;
-	background: #ccc;
-	float: left;
-	overflow: auto;
-	padding-bottom: 60px;
-	padding-top:30px;
-}
+
 
 aside {
 	float: right;
@@ -27,8 +20,8 @@ aside {
 }
 footer {
 	position: relative;
-	margin-top: -50px;
-	height: 40px; 
+	margin-top: 50px;
+	height: 100px; 
 	padding:5px 0px;
 	clear: both;
 	background: #286af0;
@@ -182,5 +175,6 @@ button:before {
  left: -30px;
  transition: all 200ms ease;
 }
+
 
 

@@ -1,5 +1,5 @@
 <header>
-   <img src="images/ropa.png" alt="" />
+   <img src="images/LogoCADSO.jpg" alt="" />
 </header>
 <nav>
    <ul>
