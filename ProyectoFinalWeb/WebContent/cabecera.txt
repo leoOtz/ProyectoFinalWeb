@@ -9,7 +9,7 @@
 <header class="header">
             <img src="images/LogoCADSO.jpg" width="120" height="60" alt="logo"  /> 
             <h1>CADSO STYLE</h1>
-			 <!--<h1>Tutoriales - Html/Css</h1>-->
+			 
 			 
 
             <nav class="top_menu">
