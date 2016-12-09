@@ -1,14 +1,29 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="css/estilo.css">	
+</head>
 <header>
    <img src="images/LogoCADSO.jpg" alt="" />
+   
+            <nav class="top_menu">
+
+                <ul>
+
+                    <li><a href="Inicio.jsp">CADSO Style</a></li>
+
+                    <li><a href="Ropa.jsp">Ropa</a></li>
+
+                    <li><a href="Locales.jsp">Locales</a></li>
+
+                    <li><a href="Tendencias.jsp">Tendencias</a></li>
+
+                    <li><a href="QuienesSomos.jsp">Quiénes somos</a></li>
+
+                    <li><a href="Contacto.jsp">Contacto</a></li>
+                    
+                    <li><a href="Administrador.jsp">Administrador</a></li>
+
+                </ul>
+
+            </nav>
 </header>
-<nav>
-   <ul>
-      <li><a href="index.jsp">Inicio</a> </li>
-      <li><a href="adminUsr.jsp">Administracion de Usuarios</a> </li>
-      <li><a href="adminUsr.jsp">Tendencias</a></li>
-      <li><a href="adminUsr.jsp">Locales</a></li>
-      
-      
-      
-   </ul> 
-</nav>
