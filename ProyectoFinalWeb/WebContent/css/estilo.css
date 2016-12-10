@@ -1,6 +1,5 @@
-html,body {
-	height:100%;
-}
+
+
 
 header {
 
@@ -177,6 +176,10 @@ button:before {
  left: -30px;
  transition: all 200ms ease;
 }
+
+
+
+
 
 
 
