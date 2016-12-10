@@ -8,6 +8,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 
 import ec.edu.epn.adminusr.modelo.entity.RopaCamiseta;
+import ec.edu.epn.adminusr.modelo.entity.TablaProducto;
 
 
 
@@ -22,12 +23,12 @@ public class SevicioImagen
 	}
 	
 	
-	public List<RopaCamiseta> consultarProductos (String nombre){
+	public List<TablaProducto> consultarProductos (String nombre){
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory(
 	    		   "pruebaProducto");
 		EntityManager em = emf.createEntityManager();		
 		Query query = em.createQuery(
-			      "SELECT r FROM RopaCamiseta AS r where r.name like ?", RopaCamiseta.class);		
+			      "SELECT t FROM TablaProducto AS t where t.nombre like ?", TablaProducto.class);		
 		query.setParameter(1,nombre);
 			  
 		return query.getResultList();

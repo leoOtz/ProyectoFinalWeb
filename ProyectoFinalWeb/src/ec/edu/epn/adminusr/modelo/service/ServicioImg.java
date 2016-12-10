@@ -5,16 +5,17 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import ec.edu.epn.adminusr.modelo.entity.Imagen;
+import ec.edu.epn.adminusr.modelo.entity.TablaProducto;
 
 
 public class ServicioImg 
 {
-	public Imagen consultarImagen (int id){
+	public TablaProducto consultarImagen (int id){
 		EntityManagerFactory emf = 
 	       Persistence.createEntityManagerFactory(
 	    		   "pruebaProducto");
 		EntityManager em = emf.createEntityManager();
-		Imagen u = em.find(Imagen.class, id);
+		TablaProducto u = em.find(TablaProducto.class, id);
 		return u;
 	}
 

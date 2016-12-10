@@ -11,8 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import ec.edu.epn.adminusr.modelo.entity.Imagen;
-
+import ec.edu.epn.adminusr.modelo.entity.TablaProducto;
 import ec.edu.epn.adminusr.modelo.service.ServicioImg;
+import ec.edu.epn.adminusr.modelo.service.SevicioImagen;
 
 
 
@@ -38,9 +39,9 @@ public class ConsultarImg extends HttpServlet {
 	{
 		String txtUsuarioBusqueda = request.getParameter("txtUsuarioBusqueda");
 				
-				ServicioImg su= new ServicioImg();
-				Imagen u=su.consultarImagen(1);
-				//List<Tablaimagen2> u = su.consultarProductos();
+				SevicioImagen su= new SevicioImagen();
+				//TablaProducto u=su.consultarProductos(txtUsuarioBusqueda);
+				List<TablaProducto> u = su.consultarProductos(txtUsuarioBusqueda);
 				request.setAttribute("pruebaProducto", u);
 				
 				

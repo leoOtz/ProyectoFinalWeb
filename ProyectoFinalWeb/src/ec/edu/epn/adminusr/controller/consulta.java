@@ -37,8 +37,8 @@ public class consulta extends HttpServlet {
 	{
 		String txtUsuarioBusqueda = request.getParameter("txtUsuarioBusqueda");
 		SevicioImagen su= new SevicioImagen();
-		List<RopaCamiseta> u = su.consultarProductos(txtUsuarioBusqueda);
-		request.setAttribute("pruebaProducto", u);
+		//List<RopaCamiseta> u = su.consultarProductos(txtUsuarioBusqueda);
+		//request.setAttribute("pruebaProducto", u);
 		
 		
 			// Invocacion Modelo
